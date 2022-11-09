@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.conteiner {
+  width: 100%;
+  height: 100vh;
+  background: rgb(221, 238, 252);
+  background: linear-gradient(
+    90deg,
+    rgba(221, 238, 252, 1) 30%,
+    rgba(194, 226, 251, 1) 52%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conteiner > section {
+  width: 500px;
+  height: 580px;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.conteiner > section > span {
+  width: 500px;
+  height: 170px;
+}
+form:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+form:nth-of-type(1) > input {
+  width: 400px;
+  height: 50px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  border: 0.5px solid gray;
+  outline: none;
+  font-size: 1.2rem;
+  transition: 0.7s;
+  appearance: none;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+form:nth-of-type(2) {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px 40px;
+}
+
+form:nth-of-type(2) > input {
+  width: 120px;
+  height: 50px;
+  border-radius: 7px;
+  border: 0.5px solid gray;
+  padding: 10px;
+  outline: none;
+  transition: 0.7s;
+}
+
+form > label {
+  width: 400px;
+  padding: 5px;
+}
+
+button {
+  width: 410px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 7px;
+  height: 50px;
+  background-color: #2364d2;
+  color: #fff;
+  box-shadow: 3px 10px 20px 0px rgb(35 100 210 / 30%);
+  border: none;
+  margin: auto;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 0.8s;
+}
+button:hover {
+  background-color: #043892e0;
+}
+
+/* card------------------------------------------------------------ */
+
+.card {
+  width: 400px;
+  height: 250px;
+  position: absolute;
+  left: 10%;
+  top: -20%;
+  z-index: 1;
+  border-radius: 8px;
+  background: rgb(139, 202, 255);
+  background: linear-gradient(
+    51deg,
+    rgb(75 147 208) 8%,
+    rgba(0, 143, 247, 1) 50%,
+    rgba(2, 202, 192, 1) 81%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card > section {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.card > section:nth-of-type(1) {
+  justify-content: space-between;
+}
+
+.card > section:nth-of-type(1) > span {
+  width: 75px;
+  height: 60px;
+}
+
+.card > section:nth-of-type(1) > span:nth-of-type(1) {
+  background-image: url(../img/chip.png);
+  background-size: cover;
+  margin-left: 25px;
+}
+.card > section:nth-of-type(1) > span:nth-of-type(2) {
+  background-image: url(../img/visa.png);
+  background-size: cover;
+  margin: 10px 30px 0 0;
+  width: 115px;
+}
+
+.card > section:nth-of-type(2) {
+  justify-content: center;
+}
+.card > section:nth-of-type(2) > span {
+  width: 330px;
+  height: 50px;
+  color: #f2f2f2d9;
+  line-height: 50px;
+  text-align: center;
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  transition: 0.7s;
+}
+
+.card > section:nth-of-type(3) {
+  justify-content: space-around;
+}
+
+.card > section:nth-of-type(3) > span {
+  height: 50px;
+  color: #ffffff;
+  line-height: 50px;
+  text-align: center;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+}
+
+.card > section:nth-of-type(3) > span:nth-of-type(1) {
+  width: 180px;
+  text-transform: capitalize;
+}
+.card > section:nth-of-type(3) > span:nth-of-type(2) {
+  width: 80px;
+}
+.card > section:nth-of-type(3) > span:nth-of-type(3) {
+  width: 80px;
+}
+
+.card > section:nth-of-type(3) > span:nth-of-type(3) > span {
+  width: 50%;
+}
