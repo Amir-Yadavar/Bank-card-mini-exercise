@@ -5,7 +5,7 @@ Register information on the bank card
 ![Screenshot (49)](https://user-images.githubusercontent.com/110972269/200810201-c0a4e14c-45f3-49c2-baa7-f50720f6ce2d.png)
 
 
-🔗 [Demo Project]()
+  🔗 [Demo Project](https://amir-yadavar.github.io/Bank-card-mini-exercise/)
 
 - 👨‍💻 Developed by Amir Yadavar
 
